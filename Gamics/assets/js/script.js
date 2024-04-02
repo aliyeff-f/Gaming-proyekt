@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 const navbar = document.querySelector("[data-navbar]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
 const navbarToggler = document.querySelector("[data-nav-toggler]");
@@ -18,12 +16,6 @@ for (let i = 0; i < navbarLinks.length; i++) {
   });
 }
 
-
-
-/**
- * search toggle
- */
-
 const searchTogglers = document.querySelectorAll("[data-search-toggler]");
 const searchBox = document.querySelector("[data-search-box]");
 
@@ -32,12 +24,6 @@ for (let i = 0; i < searchTogglers.length; i++) {
     searchBox.classList.toggle("active");
   });
 }
-
-
-
-/**
- * header
- */
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
